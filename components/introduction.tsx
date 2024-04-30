@@ -4,7 +4,7 @@ import { Mail, Paperclip } from 'lucide-react';
 
 import { buttonVariants } from './ui/button';
 
-import Container from './container';
+import Container from './shared/container';
 
 const Introduction = () => {
   return (
@@ -24,7 +24,7 @@ const Introduction = () => {
           </div>
         </div>
         <div className=" flex justify-center mt-5 mx-auto " >
-          <Image src='/foto-perfil.png' alt='Profile pic' width={300} height={300} />
+          <Image src='/foto-perfil.png' alt='Profile pic' width={500} height={500} />
         </div>
       </div>
     </Container>

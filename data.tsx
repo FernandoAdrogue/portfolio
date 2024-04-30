@@ -1,4 +1,4 @@
-import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench } from "lucide-react";
+import { BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, SquareCode, UserRound, UsersRound, Wrench } from "lucide-react";
 
 export const dataAboutMe = [
     {
@@ -158,7 +158,7 @@ export const dataExperience = [
     },
     {
         id: 2,
-        title: "Backend Development  🥷",
+        title: "Backend Development 🧰",
         experience: [
             {
                 name: "Node JS",
@@ -198,7 +198,7 @@ export const dataExperience = [
 export const dataServices = [
     {
         id: 1,
-        title: "Desarrollo Web",
+        title: "Desarrollo Front End",
         icon: <PanelsTopLeft />,
         features: [
             {
@@ -226,32 +226,23 @@ export const dataServices = [
     },
     {
         id: 2,
-        title: "Creación de contenido",
-        icon: <BellPlus />,
+        title: "Desarrollo Back End",
+        icon: <SquareCode/>,
         features: [
             {
-                name: "Redacción de contenido original y de calidad",
+                name: "Modelado de Bases de Datos",
             },
             {
-                name: "Creación de vídeos atractivos y dinámicos",
+                name: "Almacenamiento en la Nube",
             },
             {
-                name: "Diseño gráfico para una imagen impactante",
+                name: "Autenticación local y Remota",
             },
             {
-                name: "Edición profesional de textos y materiales visuales",
+                name: "Creación de full API REST",
             },
             {
-                name: "Estrategias de marketing de contenidos efectivas",
-            },
-            {
-                name: "Producción de podcasts informativos y entretenidos",
-            },
-            {
-                name: "Generación de infografías claras y visualmente atractivas",
-            },
-            {
-                name: "Fotografía profesional para capturar momentos excepcionales",
+                name: "Mailing Service",
             },
         ],
     },
