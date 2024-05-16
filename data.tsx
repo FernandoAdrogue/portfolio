@@ -5,19 +5,19 @@ export const dataAboutMe = [
         id: 1,
         name: "Experiencia",
         icon: <Briefcase />,
-        description: "+4 años de experiencia",
+        description: "2 años de experiencia",
     },
-    {
-        id: 2,
-        name: "Clientes",
-        icon: <UsersRound />,
-        description: "+200 clientes satisfechos",
-    },
+    // {
+    //     id: 2,
+    //     name: "Clientes",
+    //     icon: <UsersRound />,
+    //     description: "+200 clientes satisfechos",
+    // },
     {
         id: 3,
         name: "Proyectos",
         icon: <Wrench />,
-        description: "+50 completados",
+        description: "3 completados",
     },
 ];
 
@@ -57,65 +57,77 @@ export const itemsNavbar = [
 export const dataSlider = [
     {
         id: 1,
-        url: "/slider-1.jpg",
+        url: "/landing_pi.jpg",
     },
     {
         id: 2,
-        url: "/slider-2.jpg",
+        url: "/landing_RandM.jpg",
     },
     {
         id: 3,
-        url: "/slider-3.jpg",
+        url: "/home_pi.jpg",
     },
     {
         id: 4,
-        url: "/slider-4.jpg",
+        url: "/main_RandM.jpg",
+    },
+    {
+        id: 5,
+        url: "/detail_pi.jpg",
+    },
+    {
+        id: 6,
+        url: "/detail_RandM.jpg",
+    },
+    {
+        id: 7,
+        url: "/slider-2.jpg",
     },
 ]
 
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
+        title: "Countries",
+        image: "/pi_project.png",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
+        title: "Rick & Morty",
+        image: "/rick_and_morty.png",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
+        title: "Book Scape",
+        image: "/slider-2.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
-    {
-        id: 4,
-        title: "Navegando Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Sitios Web Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Proyectos Web Dinámicos",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
+    // {
+    //     id: 4,
+    //     title: "Navegando Ideas Creativas",
+    //     image: "/image-4.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // },
+    // {
+    //     id: 5,
+    //     title: "Sitios Web Impactantes",
+    //     image: "/image-5.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // },
+    // {
+    //     id: 6,
+    //     title: "Proyectos Web Dinámicos",
+    //     image: "/image-6.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // },
 ];
 
 
@@ -140,14 +152,24 @@ export const dataExperience = [
                 value: 60,
             },
             {
+                name: "TypeScript",
+                subtitle: "Intermedio",
+                value: 50,
+            },
+            {
                 name: "Tailwind CSS",
-                subtitle: "Experimentado",
-                value: 30,
+                subtitle: "Intermedio",
+                value: 70,
             },
             {
                 name: "React",
                 subtitle: "Experimentado",
                 value: 60,
+            },
+            {
+                name: "Next.Js",
+                subtitle: "Intermedio",
+                value: 75,
             },
             {
                 name: "Bootstrap",
@@ -166,29 +188,54 @@ export const dataExperience = [
                 value: 80,
             },
             {
+                name: "Express JS",
+                subtitle: "Experimentado",
+                value: 70,
+            },
+            {
+                name: "PostgreSQL",
+                subtitle: "Experimentado",
+                value: 60,
+            },
+            {
                 name: "Mongo DB",
+                subtitle: "Basic",
+                value: 40,
+            },
+            {
+                name: "TypeScript",
                 subtitle: "Intermedio",
-                value: 75,
+                value: 50,
+            },
+            {
+                name: "Nest JS",
+                subtitle: "Intermedio",
+                value: 30,
             },
             {
                 name: "Python",
-                subtitle: "Basic",
-                value: 60,
-            },
-            {
-                name: "MySQL",
-                subtitle: "Experimentado",
-                value: 60,
-            },
-            {
-                name: "PHP",
-                subtitle: "Experimentado",
+                subtitle: "Intermedio",
                 value: 60,
             },
             {
                 name: "Django",
                 subtitle: "Basic",
-                value: 60,
+                value: 50,
+            },
+            {
+                name: "Java",
+                subtitle: "Intermedio",
+                value: 70,
+            },
+            {
+                name: "Spring Boot",
+                subtitle: "Intermedio",
+                value: 30,
+            },
+            {
+                name: "MySQL",
+                subtitle: "Intermedio",
+                value: 80,
             },
         ],
     },
@@ -207,9 +254,9 @@ export const dataServices = [
             {
                 name: "Diseño y desarrollo responsive",
             },
-            {
-                name: "Optimización SEO",
-            },
+            // {
+            //     name: "Optimización SEO",
+            // },
             {
                 name: "Desarrollo de aplicaciones web",
             },
@@ -278,22 +325,22 @@ export const dataContact = [
     {
         id: 1,
         title: "Teléfono",
-        subtitle: "+34 677 66 66 33",
-        link: "tel:+34677666633",
+        subtitle: "+54 2245 421013",
+        link: "tel:+5492245421013",
         icon: <Phone />,
     },
     {
         id: 2,
         title: "Github",
-        subtitle: "github.com/ratasi",
-        link: "github.com/ratasi",
+        subtitle: "github.com/FernandoAdrogue",
+        link: "github.com/fernandoadrogue",
         icon: <Code2 />,
     },
     {
         id: 3,
         title: "Email",
-        subtitle: "email@email.com",
-        link: "mailto:test@test.com",
+        subtitle: "chinoadrogue@gmail.com",
+        link: "mailto:chinoadrogue@gmail.com",
         icon: <Inbox />,
     },
 ];
