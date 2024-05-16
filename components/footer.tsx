@@ -3,7 +3,7 @@ import Link from "next/link"
 const Footer = () => {
   return (
     <footer className=" max-w-3xl mx-auto ">
-        <div className=" md:float-start md: justify-between">
+        <div className=" md:flex md: justify-between">
           <div>
             <h4 className=" text-3xl font-bold my-6 md:my-0 ">Fernando Adrogué</h4>
           </div>
