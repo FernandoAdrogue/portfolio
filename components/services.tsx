@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div id="services" className=" p-6 md:p-12 md:py24 max-w-5xl mx-auto" >
       <Title title="Services" subtitle="Que ofrezco"/>
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 gap 5 mt-7">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-5 mt-7">
         {dataServices.map((services)=>(
           <div key={services.id} className=" rounded-xl border-slate-400 border-2 p-6 dark:bg-slate-800 h-fit ">
             <h4 className=" mb-4 text-xl flex gap-2 ">
