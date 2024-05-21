@@ -5,7 +5,7 @@ export const dataAboutMe = [
         id: 1,
         name: "Experiencia",
         icon: <Briefcase />,
-        description: "2 años de experiencia",
+        description: "1 año de experiencia",
     },
     // {
     //     id: 2,
