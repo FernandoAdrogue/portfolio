@@ -90,22 +90,22 @@ export const dataPortfolio = [
         id: 1,
         title: "Countries",
         image: "/pi_project.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/FernandoAdrogue/PI",
+        urlDemo: "https://pi-client-fb9f.onrender.com",
     },
     {
         id: 2,
         title: "Rick & Morty",
         image: "/rick_and_morty.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/FernandoAdrogue/client_rick_and_morty",
+        urlDemo: "https://cli-rick-and-morty.onrender.com",
     },
     {
         id: 3,
         title: "Book Scape",
         image: "/slider-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/FernandoAdrogue/Client_Book_Scape",
+        urlDemo: "https://bookscapefront-production.up.railway.app/",
     },
 ];
 
