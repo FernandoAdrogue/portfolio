@@ -10,15 +10,17 @@ const Contact = () => {
         <div className=" grid sm:grid-cols-1 md:grid-cols-3 md:gap-7 mt-8">
             <div>
                 {dataContact.map((data)=>(
-                    <div key={data.id}
-                     className=" flex flex-col items-center dark:bg-slate-800 rounded-lg mb-5 p-4">
-                        {data.icon}
-                        <p>{data.title}</p>
-                        <p>{data.subtitle}</p>
+                    <>
                         <Link href={data.link} target="_blank">
-                            Contáctame
+                            <div key={data.id}
+                            className=" flex flex-col items-center border dark:border-none border-slate-400 dark:bg-slate-800 bg-orange-100 rounded-lg mb-5 p-4">
+                                {data.icon}
+                                <p>{data.title}</p>
+                                <p>{data.subtitle}</p>
+                                    Contáctame
+                            </div>
                         </Link>
-                    </div>
+                    </>
                 ))}
             </div>
             <div className=" col-span-2">

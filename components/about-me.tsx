@@ -1,4 +1,4 @@
-import { dataAboutMe, dataSlider } from "@/data"
+import { dataAboutMe, dataContact, dataSlider } from "@/data"
 
 import Title from "./shared/title"
 
@@ -7,6 +7,7 @@ import { Phone } from "lucide-react"
 import { Button } from "./ui/button"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel"
 import Image from "next/image"
+import Link from "next/link"
 
 const AboutMe = () => {
   return (
@@ -38,7 +39,7 @@ const AboutMe = () => {
             <div>
               <div className=" grid md:grid-cols-3 mt-7 gap-4">
                 {dataAboutMe.map((data)=>(
-                  <div key={data.id} className=" border border-white-10 rounded-xl p-4 shadow-md shadow-slate-100 dark:bg-slate-800 ">
+                  <div key={data.id} className=" border dark:shadow-slate-100 shadow-slate-400 dark:border-white-10 border-orange-10 rounded-xl p-4 shadow-md dark:bg-slate-800 bg-orange-50 ">
                     {data.icon}
                     <p className=" my-2 ">{data.name}</p>
                     <p className=" text-gray-400 ">{data.description}</p>
@@ -49,9 +50,11 @@ const AboutMe = () => {
                       Tengo mas de 10 años de experiencia liderando equipos de trabajo y dedicado la education técnica.
                       Mis aptitudes son: HTML, CSS, JavaScript , React , Redux, Node.js, Express, PostgreSQL , Sequelize, Typescript, Angular, Java, Python, VBA, MySQL , SQL Server, .NET y Git.
               </p>
-              <Button>
-                <Phone size={20} className=" mr-2"/>Hablamos
-              </Button>
+              <Link href={ dataContact[0].link } target="_blank">
+                <Button>
+                  <Phone size={20} className=" mr-2"/>Hablamos
+                </Button>
+              </Link>
             </div>
         </div> 
     </div>

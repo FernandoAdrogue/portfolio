@@ -9,7 +9,7 @@ const Experience = () => {
         <Title title="Experiencia" subtitle="Skills" />
         <div className=" grid sm:grid-cols-1 md:grid-cols-2 gap-8 mt-5 ">
           {dataExperience.map((data)=>(
-              <div key={data.id} className=" p-6 rounded-xl border border-gray-400 ">
+              <div key={data.id} className=" p-6 rounded-xl border border-slate-400 ">
                 <h3 className=" text-center text-xl ">{data.title}</h3>
                 <div className=" grid sm:grid-cols-1 md:grid-cols-2 gap-4 ">
                   {data.experience.map((item)=>(

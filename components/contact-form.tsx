@@ -52,8 +52,7 @@ const ContactForm = () => {
 						render={({ field }) => (
 							<FormItem>
 								<FormControl>
-									<Input
-										className=" dark:bg-slate-800 "
+									<Input className=" border dark:border-none border-slate-300 dark:bg-slate-800 bg-orange-50 "
 										placeholder="Your Name"
 										{...field}
 									/>
@@ -68,8 +67,7 @@ const ContactForm = () => {
 						render={({ field }) => (
 							<FormItem>
 								<FormControl>
-									<Input
-										className=" dark:bg-slate-800 "
+									<Input className=" border dark:border-none border-slate-300 dark:bg-slate-800 bg-orange-50 "
 										placeholder="Your e-mail"
 										{...field}
 									/>
@@ -84,8 +82,7 @@ const ContactForm = () => {
 						render={({ field }) => (
 							<FormItem>
 								<FormControl>
-									<Textarea
-										className=" dark:bg-slate-800 "
+									<Textarea className=" border dark:border-none border-slate-300 dark:bg-slate-800 bg-orange-50 "
 										placeholder="Type your message here."
 										{...field}
 									/>

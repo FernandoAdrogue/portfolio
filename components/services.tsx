@@ -8,7 +8,7 @@ const Services = () => {
       <Title title="Services" subtitle="Que ofrezco"/>
       <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-5 mt-7">
         {dataServices.map((services)=>(
-          <div key={services.id} className=" rounded-xl border-slate-400 border-2 p-6 dark:bg-slate-800 h-fit ">
+          <div key={services.id} className=" rounded-xl border-2 dark:border-slate-400 border-slate-300 p-6 dark:bg-slate-800 h-fit bg-orange-100 ">
             <h4 className=" mb-4 text-xl flex gap-2 ">
               {services.icon}
               {services.title}
