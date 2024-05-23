@@ -333,7 +333,7 @@ export const dataContact = [
         id: 2,
         title: "Github",
         subtitle: "github.com/FernandoAdrogue",
-        link: "github.com/fernandoadrogue",
+        link: "https://github.com/fernandoadrogue",
         icon: <Code2 />,
     },
     {
