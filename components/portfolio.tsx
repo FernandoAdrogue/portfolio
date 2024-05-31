@@ -30,8 +30,8 @@ const Portfolio = () => {
                         >
                             Demo
                         </Link>
-
                     </div>
+                    {data.coment?? <p>{data.coment}</p>}
                 </div>
             ))}
         </div>
