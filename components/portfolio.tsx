@@ -17,6 +17,7 @@ const Portfolio = () => {
                             width={300} 
                             height={300}
                     className=" rounded-2xl w-full"/>
+                    {data.coment?? <p className=" text-sm text-gray-400 ">{data.coment}</p>}
                     <div className=" mt-5 flex gap-5 ">
                         <Link   className={buttonVariants({variant: "outline"})} 
                                 href={data.urlGithub}
@@ -31,7 +32,6 @@ const Portfolio = () => {
                             Demo
                         </Link>
                     </div>
-                    {data.coment?? <p>{data.coment}</p>}
                 </div>
             ))}
         </div>
