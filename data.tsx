@@ -99,7 +99,7 @@ export const dataPortfolio = [
         image: "/rick_and_morty.png",
         urlGithub: "https://github.com/FernandoAdrogue/client_rick_and_morty",
         urlDemo: "https://clirickandmorty.netlify.app/",
-        coment: "user: miemail@email.com - password: aB1234",
+        coment: "user: miemail@email.com password: aB1234",
     },
     {
         id: 3,
