@@ -98,7 +98,7 @@ export const dataPortfolio = [
         title: "Rick & Morty",
         image: "/rick_and_morty.png",
         urlGithub: "https://github.com/FernandoAdrogue/client_rick_and_morty",
-        urlDemo: "https://app.netlify.com/sites/clirickandmorty/",
+        urlDemo: "https://clirickandmorty.netlify.app/",
     },
     {
         id: 3,
